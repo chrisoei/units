@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import dxlx from './dxlx';
-import {quart, volume} from './volume'
+import {volumes} from './volume'
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-            {quart()}
+            {volumes()}
         </p>
       </header>
     </div>
